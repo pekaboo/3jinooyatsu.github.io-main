@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>开发｜3時のおやつ</title>
+  <meta name="description" content="3時のおやつ 的委托开发。初期费用免费、月费 2,980 日元起，从开发到维护・运营全程负责 iOS・Android 应用、Web 应用・系统与 LINE 小应用。" />
+  <link rel="canonical" href="https://3jino-oyatsu.com/development/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="3時のおやつ" />
+  <meta property="og:title" content="开发｜3時のおやつ" />
+  <meta property="og:description" content="iOS・Android・Web・LINE 委托开发。从梳理企划到上线后的改进，全程相伴。" />
+  <meta property="og:url" content="https://3jino-oyatsu.com/development/" />
+  <meta property="og:image" content="https://3jino-oyatsu.com/logos/3jinooyatsu_ogp.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="../favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200..700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/site.css" />
+  <script src="../assets/theme.js"></script>
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="gh" data-gh>
+    <div class="gh-inner">
+      <a href="../" class="gh-logo" aria-label="3時のおやつ 首页">
+        <img src="../logos/3jinooyatsu_logo.png" alt="3時のおやつ" />
+      </a>
+      <nav class="gh-nav" id="gh-nav" aria-label="主导航">
+        <a href="../about/">关于</a>
+        <a href="../products/">产品</a>
+        <a href="./" aria-current="page">开发</a>
+        <a href="../news.html">新闻</a>
+        <a href="../recruit/">招聘</a>
+        <a href="../contact/" class="gh-nav-cta-sp">联系</a>
+      </nav>
+      <a href="../contact/" class="btn btn--circle gh-cta">联系我们<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+      <button class="gh-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="gh-nav" data-gh-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="theme-dark">
+
+    <!-- ========== Page head ========== -->
+    <section class="page-head sec--dark" aria-labelledby="page-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="crumb"><a href="../">首页</a><span aria-hidden="true">/</span><span>开发</span></p>
+        <h1 class="page-title page-title--long" id="page-title">开发</h1>
+        <p class="sec-ja">委托开发</p>
+        <p class="dhero-lead">把想做的东西、想实现的想法，<br />变成现实。</p>
+        <p class="page-lead">再小的公司，也值得拥有符合自身事业风格的系统。<br />我们用自研产品中打磨出的设计与开发经验，从梳理企划到上线后的改进，全程相伴。</p>
+        <ul class="dev-terms">
+          <li><span>初期费用</span>免费</li>
+          <li><span>月费</span>2,980 日元起</li>
+        </ul>
+        <div class="dhero-actions">
+          <a href="../contact/?type=development" class="btn btn--light">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+          <a href="#cases" class="link-arrow">案例与费用参考<span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 01 What we build ========== -->
+    <section class="sec sec--dark" aria-labelledby="build-title">
+      <div class="wrap">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="build-title">开发能力</h2>
+          <p class="sec-ja">我们能开发什么</p>
+        </header>
+
+        <div class="caps">
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">移动应用</h3>
+            <p class="cap-ja">iOS・Android 应用开发</p>
+            <p class="cap-desc">iPhone・Android 原生应用开发。灵活运用小组件、共享菜单、通知等系统能力，设计出色的使用体验。</p>
+            <p class="cap-list-label">适合这样的需求</p>
+            <ul class="cap-list"><li>新应用的从零打造</li><li>现有应用的功能新增・改进</li><li>iPhone 应用的 Android 适配</li></ul>
+            <ul class="tags tags--dark"><li>Swift</li><li>SwiftUI</li><li>Kotlin</li><li>Jetpack Compose</li></ul>
+          </article>
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">Web 应用与系统</h3>
+            <p class="cap-ja">Web 应用・系统开发</p>
+            <p class="cap-desc">从业务系统、SaaS 到管理后台。先做小，再在运营中逐步成长，是我们的开发方式。</p>
+            <p class="cap-list-label">适合这样的需求</p>
+            <ul class="cap-list"><li>业务系统・管理后台</li><li>SaaS・Web 服务的搭建</li><li>边运营边做功能改进</li></ul>
+            <ul class="tags tags--dark"><li>TypeScript</li><li>React</li><li>Supabase</li></ul>
+          </article>
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">LINE 小应用</h3>
+            <p class="cap-ja">LINE 小应用开发</p>
+            <p class="cap-desc">预约、点单、会员卡等全部在 LINE 内完成。从添加好友到实际使用，路径尽可能短。</p>
+            <p class="cap-list-label">适合这样的需求</p>
+            <ul class="cap-list"><li>预约・点单</li><li>会员卡・积分</li><li>从添加好友到使用的完整路径</li></ul>
+            <ul class="tags tags--dark"><li>LIFF</li><li>Messaging API</li></ul>
+          </article>
+        </div>
+
+        <div class="principles" data-reveal>
+          <div class="principles-head">
+            <h3 class="sub-title">我们的工作方式<span>最重视的三件事</span></h3>
+            <p class="principles-lead">我们相信，好的产品诞生于这三点的日积月累。</p>
+          </div>
+          <ol class="principle-list">
+            <li>
+              <span class="pl-no">01</span>
+              <div class="pl-head"><strong>对齐目的</strong><em>Align on why</em></div>
+              <p>在决定做什么之前，先对齐为什么做。把事业的目标和优先级说清楚，再动手。</p>
+            </li>
+            <li>
+              <span class="pl-no">02</span>
+              <div class="pl-head"><strong>小步尝试</strong><em>Ship small, learn fast</em></div>
+              <p>尽早摸到能运行的东西，尽早修正。比起厚重的规格书，我们更愿意用能上手体验的原型来判断。</p>
+            </li>
+            <li>
+              <span class="pl-no">03</span>
+              <div class="pl-head"><strong>设计感受</strong><em>Design the feeling</em></div>
+              <p>连「用起来舒不舒服」也纳入设计。操作的触感、文案的措辞，细节都打磨到位。</p>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== 02 Cases ========== -->
+    <section class="sec sec--dark" id="cases" aria-labelledby="cases-title">
+      <div class="wrap">
+        <header class="sec-head sec-head--split" data-reveal>
+          <div>
+            <span class="sec-index" aria-hidden="true"></span>
+            <h2 class="sec-title" id="cases-title">案例</h2>
+            <p class="sec-ja">案例与费用参考</p>
+          </div>
+          <p class="sec-desc">从小店的预约系统，到公司整体的业务系统。<br />以下是基于实际开发中的系统功能，按内容分类的费用参考。</p>
+        </header>
+
+        <ol class="cases" data-reveal>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 01</span><span class="case-kind">LINE</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">01 / SEGMENT ROUTING</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <g class="cm-line">
+                  <path d="M68 104 C108 104 112 62 150 62" /><path d="M68 104 H150" /><path d="M68 104 C108 104 112 146 150 146" />
+                  <path d="M178 62 H194 V146 H178 M194 104 H214" />
+                </g>
+                <circle class="cm-node" cx="58" cy="104" r="10" /><circle class="cm-core" cx="58" cy="104" r="3.5" />
+                <rect class="cm-node" x="150" y="56" width="28" height="12" rx="6" /><rect class="cm-node" x="150" y="98" width="28" height="12" rx="6" /><rect class="cm-node" x="150" y="140" width="28" height="12" rx="6" />
+                <circle class="cm-pkt" r="2.6"><animateMotion dur="2.4s" repeatCount="indefinite" path="M68 104 C108 104 112 62 150 62" /></circle>
+                <circle class="cm-pkt" r="2.6"><animateMotion dur="2.4s" begin="-0.8s" repeatCount="indefinite" path="M68 104 H150" /></circle>
+                <circle class="cm-pkt" r="2.6"><animateMotion dur="2.4s" begin="-1.6s" repeatCount="indefinite" path="M68 104 C108 104 112 146 150 146" /></circle>
+                <g class="cm-tiles">
+                  <rect x="216" y="80" width="24" height="24" rx="4" style="--t: 0" /><rect x="244" y="80" width="24" height="24" rx="4" style="--t: 1" /><rect x="272" y="80" width="24" height="24" rx="4" style="--t: 2" />
+                  <rect x="272" y="110" width="24" height="24" rx="4" style="--t: 3" /><rect x="244" y="110" width="24" height="24" rx="4" style="--t: 4" /><rect x="216" y="110" width="24" height="24" rx="4" style="--t: 5" />
+                </g>
+                <text class="cm-label" x="58" y="132" text-anchor="middle">IN</text>
+                <text class="cm-label" x="164" y="50" text-anchor="middle">SEGMENT</text>
+                <text class="cm-label" x="256" y="152" text-anchor="middle">RICH MENU</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">美容沙龙</p>
+              <h3 class="case-title">LINE 消息推送・图文菜单</h3>
+              <p class="case-desc">让 LINE 官方账号更聪明。根据顾客的情况，自动切换分步推送与图文菜单的机制。</p>
+              <ul class="case-tags"><li>分步推送</li><li>图文菜单自动切换</li><li>面向不同顾客的定向推送</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 <span class="nobr">2,980<small>日元起</small></span></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-01">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 02</span><span class="case-kind">Web</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">02 / SLOT SCHEDULER</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <g><rect class="cm-slot" x="28" y="58" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="48" y="58" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="68" y="58" width="14" height="14" rx="3" /><rect class="cm-slot" x="88" y="58" width="14" height="14" rx="3" /><rect class="cm-slot" x="108" y="58" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="128" y="58" width="14" height="14" rx="3" /><rect class="cm-slot" x="148" y="58" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="28" y="78" width="14" height="14" rx="3" /><rect class="cm-slot" x="48" y="78" width="14" height="14" rx="3" /><rect class="cm-slot" x="68" y="78" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="88" y="78" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="108" y="78" width="14" height="14" rx="3" /><rect class="cm-slot" x="128" y="78" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="148" y="78" width="14" height="14" rx="3" /><rect class="cm-slot" x="28" y="98" width="14" height="14" rx="3" /><rect class="cm-slot" x="48" y="98" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="68" y="98" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="88" y="98" width="14" height="14" rx="3" /><rect class="cm-slot" x="108" y="98" width="14" height="14" rx="3" /><rect class="cm-slot" x="128" y="98" width="14" height="14" rx="3" /><rect class="cm-slot" x="148" y="98" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="28" y="118" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="48" y="118" width="14" height="14" rx="3" /><rect class="cm-slot" x="68" y="118" width="14" height="14" rx="3" /><rect class="cm-slot" x="88" y="118" width="14" height="14" rx="3" /><rect class="cm-slot" x="108" y="118" width="14" height="14" rx="3" /><rect class="cm-slot is-busy" x="128" y="118" width="14" height="14" rx="3" /><rect class="cm-slot" x="148" y="118" width="14" height="14" rx="3" /></g>
+                <rect class="cm-hit" x="128" y="98" width="14" height="14" rx="3" />
+                <rect class="cm-cursor" x="0" y="0" width="18" height="18" rx="4" />
+                <rect class="cm-node" x="186" y="52" width="108" height="98" rx="8" />
+                <rect class="cm-bar" x="198" y="66" width="46" height="5" rx="2.5" /><rect class="cm-bar is-dim" x="198" y="79" width="66" height="4" rx="2" /><rect class="cm-bar is-dim" x="198" y="90" width="40" height="4" rx="2" />
+                <rect class="cm-track" x="198" y="122" width="84" height="4" rx="2" /><rect class="cm-fill" x="198" y="122" width="84" height="4" rx="2" />
+                <circle class="cm-check-ring" cx="272" cy="72" r="8" /><path class="cm-check" d="M268 72l3 3 5.5-6" />
+                <text class="cm-label" x="28" y="154">28 SLOTS · 9 FREE</text>
+                <text class="cm-label cm-ok" x="198" y="141">CONFIRMED</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">整体理疗院</p>
+              <h3 class="case-title">简洁的预约系统</h3>
+              <p class="case-desc">从空位展示、预约受理到确认邮件。把原本靠电话接的预约，搬到 Web 上受理的基本机制。</p>
+              <ul class="case-tags"><li>空位展示（◎○△×）</li><li>预约受理・取消</li><li>预约完成・门店通知邮件</li><li>预约管理后台</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 <span class="nobr">2,980<small>日元起</small></span></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-02">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 03</span><span class="case-kind">LINE</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">03 / LEAD PIPELINE</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <path class="cm-line" d="M40 128H280" />
+                <rect class="cm-col" x="35" y="56" width="10" height="56" rx="2" style="--t: 0" /><path class="cm-cap" d="M35 56h10" /><rect class="cm-col" x="95" y="70" width="10" height="42" rx="2" style="--t: 1" /><path class="cm-cap" d="M95 70h10" /><rect class="cm-col" x="155" y="82" width="10" height="30" rx="2" style="--t: 2" /><path class="cm-cap" d="M155 82h10" /><rect class="cm-col" x="215" y="92" width="10" height="20" rx="2" style="--t: 3" /><path class="cm-cap" d="M215 92h10" /><rect class="cm-col" x="275" y="100" width="10" height="12" rx="2" style="--t: 4" /><path class="cm-cap" d="M275 100h10" />
+                <circle class="cm-node" cx="40" cy="128" r="6" /><circle class="cm-node" cx="100" cy="128" r="6" /><circle class="cm-node" cx="160" cy="128" r="6" /><circle class="cm-node" cx="220" cy="128" r="6" /><circle class="cm-node" cx="280" cy="128" r="6" />
+                <circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 240px; --d: 0s" /><circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 180px; --d: 0.5s" /><circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 120px; --d: 1s" /><circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 240px; --d: 1.5s" /><circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 60px; --d: 2s" /><circle class="cm-flow" cx="40" cy="128" r="2.6" style="--to: 180px; --d: 2.5s" />
+                <text class="cm-label" x="40" y="150" text-anchor="middle">AD</text><text class="cm-label" x="100" y="150" text-anchor="middle">FRIEND</text><text class="cm-label" x="160" y="150" text-anchor="middle">BOOK</text><text class="cm-label" x="220" y="150" text-anchor="middle">VISIT</text><text class="cm-label" x="280" y="150" text-anchor="middle">JOIN</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">培训学校・兴趣班</p>
+              <h3 class="case-title">LINE 获客应用</h3>
+              <p class="case-desc">从广告和社交网站引导添加好友，直接在 LINE 内完成体验课、个别咨询的预约。推送和顾客管理也集中在一个后台。</p>
+              <ul class="case-tags"><li>LINE 内预约・问卷</li><li>提醒・分步推送</li><li>顾客・预约管理后台</li><li>按获客渠道的效果统计</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 9,800<small>日元起</small></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-03">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 04</span><span class="case-kind">Web</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">04 / MULTI-STORE SYNC</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <path class="cm-link" d="M160 104L71 58" /><path class="cm-link" d="M160 104L71 150" /><path class="cm-link" d="M160 104L249 58" /><path class="cm-link" d="M160 104L249 150" />
+                <circle class="cm-ticks" cx="160" cy="104" r="28" />
+                <circle class="cm-node" cx="160" cy="104" r="15" /><circle class="cm-core" cx="160" cy="104" r="4" />
+                <rect class="cm-node" x="41" y="49" width="30" height="18" rx="5" /><rect class="cm-node" x="41" y="141" width="30" height="18" rx="5" /><rect class="cm-node" x="249" y="49" width="30" height="18" rx="5" /><rect class="cm-node" x="249" y="141" width="30" height="18" rx="5" />
+                <rect class="cm-step" x="42" y="72" width="8" height="3" rx="1.5" style="--t: 0" /><rect class="cm-step" x="52" y="72" width="8" height="3" rx="1.5" style="--t: 1" /><rect class="cm-step" x="62" y="72" width="8" height="3" rx="1.5" style="--t: 2" /><rect class="cm-step" x="42" y="164" width="8" height="3" rx="1.5" style="--t: 1" /><rect class="cm-step" x="52" y="164" width="8" height="3" rx="1.5" style="--t: 2" /><rect class="cm-step" x="62" y="164" width="8" height="3" rx="1.5" style="--t: 3" /><rect class="cm-step" x="250" y="72" width="8" height="3" rx="1.5" style="--t: 2" /><rect class="cm-step" x="260" y="72" width="8" height="3" rx="1.5" style="--t: 3" /><rect class="cm-step" x="270" y="72" width="8" height="3" rx="1.5" style="--t: 4" /><rect class="cm-step" x="250" y="164" width="8" height="3" rx="1.5" style="--t: 3" /><rect class="cm-step" x="260" y="164" width="8" height="3" rx="1.5" style="--t: 4" /><rect class="cm-step" x="270" y="164" width="8" height="3" rx="1.5" style="--t: 5" />
+                <text class="cm-label" x="56" y="44" text-anchor="middle">S-01</text><text class="cm-label" x="56" y="136" text-anchor="middle">S-02</text><text class="cm-label" x="264" y="44" text-anchor="middle">S-03</text><text class="cm-label" x="264" y="136" text-anchor="middle">S-04</text>
+                <text class="cm-label" x="160" y="146" text-anchor="middle">HQ</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">多门店健身俱乐部</p>
+              <h3 class="case-title">多门店预约・顾客管理系统</h3>
+              <p class="case-desc">各门店的预约统一在一个系统中受理。总部可以总览所有门店的状况，甚至看清预约在多大程度上转化为到店和入会。</p>
+              <ul class="case-tags"><li>空位一目了然的预约页面</li><li>门店・总部各自的管理后台</li><li>到店・入会的状态管理</li><li>广告效果统计（Meta・GA4）</li><li>与现有预约管理服务的联动</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 15,000<small>日元起</small></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-04">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 05</span><span class="case-kind">Web</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">05 / DATA PROTECTION</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <path class="cm-plain" d="M30 62H180" style="--t: 0" /><path class="cm-mask" d="M30 62H180" style="--t: 0" /><path class="cm-plain" d="M30 82H180" style="--t: 1" /><path class="cm-mask" d="M30 82H180" style="--t: 1" /><path class="cm-plain" d="M30 102H180" style="--t: 2" /><path class="cm-mask" d="M30 102H180" style="--t: 2" /><path class="cm-plain" d="M30 122H180" style="--t: 3" /><path class="cm-mask" d="M30 122H180" style="--t: 3" />
+                <g class="cm-beam"><rect x="22" y="50" width="16" height="84" rx="2" /><path d="M30 50V134" /></g>
+                <circle class="cm-ring" cx="250" cy="100" r="36" />
+                <path class="cm-node" d="M240 96v-8a10 10 0 0 1 20 0v8" /><rect class="cm-node" x="234" y="96" width="32" height="24" rx="5" /><circle class="cm-core" cx="250" cy="107" r="2.6" />
+                <path class="cm-ttl" d="M30 164h44" style="--t: 0" /><path class="cm-ttl" d="M86 164h44" style="--t: 1" /><path class="cm-ttl" d="M142 164h44" style="--t: 2" />
+                <text class="cm-label" x="30" y="154">AUTO DELETE</text>
+                <text class="cm-label" x="250" y="152" text-anchor="middle">ENCRYPTED</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">广告代理公司</p>
+              <h3 class="case-title">客户线索个人信息保护系统</h3>
+              <p class="case-desc">安全保管通过广告收集到的顾客信息（销售线索）。加密保存，超过设定期限自动删除。用机制、而不是靠人的小心，来守护个人信息。</p>
+              <ul class="case-tags"><li>个人信息加密保存</li><li>超期数据自动删除</li><li>限定可见范围的权限管理</li><li>查看・导出的操作记录</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 19,800<small>日元起</small></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-05">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+          <li class="case">
+            <div class="case-head"><span class="case-no">Case 06</span><span class="case-kind">Web</span></div>
+            <div class="case-shot" aria-hidden="true">
+              <svg class="cm" viewBox="0 0 320 200">
+                <path class="cm-frame" d="M10 20V10h10M300 10h10v10M310 180v10h-10M20 190H10v-10" />
+                <text class="cm-label" x="22" y="27">06 / OPERATIONS</text>
+                <g class="cm-live"><circle cx="297" cy="24" r="2.2" /><text class="cm-label" x="291" y="27" text-anchor="end">LIVE</text></g>
+                <path class="cm-grid" d="M24 76H196M24 104H196M24 132H196" />
+                <path class="cm-area" d="M24 128 L52 118 L80 122 L108 100 L136 106 L164 80 L196 70 L196 140 L24 140Z" />
+                <path class="cm-chart" d="M24 128 L52 118 L80 122 L108 100 L136 106 L164 80 L196 70" pathLength="100" />
+                <circle class="cm-pt" cx="24" cy="128" r="2.4" style="--t: 0" /><circle class="cm-pt" cx="52" cy="118" r="2.4" style="--t: 1" /><circle class="cm-pt" cx="80" cy="122" r="2.4" style="--t: 2" /><circle class="cm-pt" cx="108" cy="100" r="2.4" style="--t: 3" /><circle class="cm-pt" cx="136" cy="106" r="2.4" style="--t: 4" /><circle class="cm-pt" cx="164" cy="80" r="2.4" style="--t: 5" /><circle class="cm-pt" cx="196" cy="70" r="2.4" style="--t: 6" />
+                <circle class="cm-dial" cx="256" cy="104" r="40" />
+                <circle class="cm-track-ring" cx="256" cy="104" r="28" />
+                <circle class="cm-gauge" cx="256" cy="104" r="28" pathLength="100" />
+                <text class="cm-num" x="256" y="109" text-anchor="middle">82<tspan>%</tspan></text>
+                <text class="cm-label" x="24" y="154">REVENUE · MONTHLY</text>
+                <text class="cm-label" x="256" y="160" text-anchor="middle">TARGET</text>
+              </svg>
+            </div>
+            <div class="case-main">
+              <p class="case-client">销售代理公司</p>
+              <h3 class="case-title">业务管理系统</h3>
+              <p class="case-desc">把销售和营收数字集中到一个界面，自动完成统计和通知。按部门和角色配备所需的界面与权限。</p>
+              <ul class="case-tags"><li>销售数据等仪表盘</li><li>每日数据自动汇总</li><li>与 Slack・邮件等外部服务联动</li><li>按部门・角色的权限与多界面</li></ul>
+            </div>
+            <p class="case-cost"><span>费用参考</span><b>月费 39,800<small>日元起</small></b></p>
+            <button type="button" class="case-more" data-open-dialog="case-06">引入背景与解决的问题<span aria-hidden="true">＋</span></button>
+          </li>
+        </ol>
+        <p class="cases-note" data-reveal>※ 费用为基于上述系统的参考价。即使内容相近，金额也会因具体需求而不同。正式报价将在需求沟通后免费提供。</p>
+      </div>
+    </section>
+
+    <!-- 案例详情（弹窗） -->
+    <dialog class="rdlg cdlg" id="dlg-case-01" data-role="case-01" aria-labelledby="dlg-case-01-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 01<span>LINE</span></p>
+        <h3 class="rdlg-title" id="dlg-case-01-title">LINE 消息推送・图文菜单</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>美容沙龙</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>给所有人推送同样的通知，容易被拉黑</li><li>新顾客与老顾客需要看到不同的菜单和信息</li><li>到店后的跟进靠手工操作，难以持续</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>添加好友时的简单问卷，自动划分顾客并分类推送</li><li>根据添加好友或到店后的天数，自动送达引导的分步推送</li><li>新顾客与老顾客的图文菜单自动切换</li><li>已预约者自动停止接收预约引导</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 2,980 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=line">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+    <dialog class="rdlg cdlg" id="dlg-case-02" data-role="case-02" aria-labelledby="dlg-case-02-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 02<span>Web</span></p>
+        <h3 class="rdlg-title" id="dlg-case-02-title">简洁的预约系统</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>整体理疗院</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>治疗中无法接电话，曾经常漏接预约</li><li>每天要花精力确认空位和管理预约台账</li><li>希望营业时间外也能接受预约</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>24 小时随时通过 Web 受理预约</li><li>空位一目了然的预约页面（◎○△×）</li><li>自动发送预约完成邮件和门店通知邮件</li><li>预约列表（含状态・备注）以及项目・营业时间管理后台</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 2,980 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=web">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+    <dialog class="rdlg cdlg" id="dlg-case-03" data-role="case-03" aria-labelledby="dlg-case-03-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 03<span>LINE</span></p>
+        <h3 class="rdlg-title" id="dlg-case-03-title">LINE 获客应用</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>培训学校・兴趣班</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>通过广告和社交网站产生兴趣的人，走不到体验和咨询预约那一步</li><li>不清楚哪个获客动作带来了报名</li><li>预约协调和前一天的通知全靠手工</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>打通「广告・社交网站 → 添加 LINE 好友 → 个别咨询预约 → 报名」的完整流程</li><li>与 Google 日历联动，根据负责人的空闲时间生成预约时段，并自动生成在线面谈链接</li><li>预约前一天・当天自动发送提醒</li><li>已预约・已报名者自动停止推送引导</li><li>可按获客渠道追踪到报名转化的管理后台</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 9,800 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=line">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+    <dialog class="rdlg cdlg" id="dlg-case-04" data-role="case-04" aria-labelledby="dlg-case-04-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 04<span>Web</span></p>
+        <h3 class="rdlg-title" id="dlg-case-04-title">多门店预约・顾客管理系统</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>多门店健身俱乐部</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>各门店预约管理方式不一，总部看不清全貌</li><li>不清楚网络广告带来的预约有多少转化为到店和入会</li><li>与现有预约管理服务形成双重管理，担心重复预约</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>手机上轻松预约的各门店预约页面</li><li>门店・总部各自的后台，管理到店・入会的状态</li><li>广告效果自动回传 Meta・GA4，成效可视化</li><li>与现有预约管理服务联动空位和预约，防止重复预约</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 15,000 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=web">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+    <dialog class="rdlg cdlg" id="dlg-case-05" data-role="case-05" aria-labelledby="dlg-case-05-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 05<span>Web</span></p>
+        <h3 class="rdlg-title" id="dlg-case-05-title">客户线索个人信息保护系统</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>广告代理公司</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>广告收集的线索个人信息通过表格和邮件流转，担心泄露</li><li>没有删除无用个人信息的规则，数据一直留存</li><li>谁在何时查看过信息，没有留下记录</li><li>合作方问起安全机制时，难以说明</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>姓名・电话号码・邮箱地址等加密保存</li><li>超过设定保存期限的数据自动删除</li><li>按负责人限定可见范围的权限管理</li><li>记录谁在何时查看・导出，事后可追溯</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 19,800 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=web">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+    <dialog class="rdlg cdlg" id="dlg-case-06" data-role="case-06" aria-labelledby="dlg-case-06-title">
+      <div class="rdlg-inner">
+        <button type="button" class="rdlg-close" data-dialog-close aria-label="关闭"></button>
+        <p class="cdlg-no">Case 06<span>Web</span></p>
+        <h3 class="rdlg-title" id="dlg-case-06-title">业务管理系统</h3>
+        <dl class="pos-spec">
+          <div><dt>引入方</dt><dd>销售代理公司</dd></div>
+          <div><dt>面临的课题</dt><dd><ul><li>销售数据靠表格管理，按团队・成员的状况无法即时掌握</li><li>每天手工录入数据，挤占了本职工作时间</li><li>开票・回款管理依赖个人，容易疏漏</li><li>汇报分散在聊天工具和表格中，形成重复录入</li></ul></dd></div>
+          <div><dt>解决的问题</dt><dd><ul><li>经营・销售・运营等按角色配备仪表盘，数字一目了然</li><li>每天自动从外部服务获取所需数据</li><li>预约・商谈・开票直接在 Slack 内完成</li><li>开票与回款状况一屏管理，防止疏漏</li></ul></dd></div>
+          <div><dt>费用参考</dt><dd class="cdlg-cost">月费 39,800 日元起</dd></div>
+        </dl>
+        <a class="btn btn--primary btn--lg" href="../contact/?type=development&amp;kind=web">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </dialog>
+
+    <!-- ========== 03 Pricing ========== -->
+    <section class="sec sec--dark" id="pricing" aria-labelledby="pricing-title">
+      <div class="wrap pricing">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="pricing-title">价格</h2>
+          <p class="sec-ja">价格思路</p>
+        </header>
+        <div class="pricing-body" data-reveal>
+          <p class="pricing-lead">为了让任何规模的事业都容易起步，初期费用免费，月费 2,980 日元起。开发费用无需一次性预付，只需按月支付，我们就持续负责从开发到上线后的维护・运营。</p>
+          <dl class="pricing-spec">
+            <div><dt>初期费用</dt><dd>免费</dd></div>
+            <div><dt>月费</dt><dd>2,980 日元起<small>根据开发内容报价。最短合同期为 3 个月。</small></dd></div>
+            <div><dt>月费包含</dt><dd class="pricing-spec-text">设计・UI・开发／上线・发布工作／故障修复／适配系统与外部服务的变更／小型改进与咨询</dd></div>
+          </dl>
+          <a href="../contact/?type=development" class="pricing-cta">
+            <span class="pricing-cta-body">
+              <span class="pricing-cta-label">免费报价</span>
+              <span class="pricing-cta-title">免费获取报价</span>
+              <span class="pricing-cta-text">欢迎告诉我们您的课题和想做的东西的样子。即使想法还没成型，也可以从梳理必要的功能开始，一起思考。</span>
+            </span>
+            <span class="pricing-cta-arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 04 Process ========== -->
+    <section class="sec sec--dark" aria-labelledby="process-title">
+      <div class="wrap">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="process-title">流程</h2>
+          <p class="sec-ja">从报价到上线</p>
+        </header>
+        <ol class="flow-list" data-reveal>
+          <li><span>01</span>申请报价<small>表单 1 分钟</small></li>
+          <li><span>02</span>需求沟通<small>梳理想实现的目标</small></li>
+          <li><span>03</span>报价・方案<small>说明月费与开发内容</small></li>
+          <li><span>04</span>开发・上线<small>以短周期快速成型</small></li>
+          <li><span>05</span>维护・运营<small>以同样的月费持续改进</small></li>
+        </ol>
+        <div class="dev-cta" data-reveal>
+          <a href="../contact/?type=development" class="btn btn--light">免费申请报价<span class="btn-arrow" aria-hidden="true">→</span></a>
+          <p class="dev-cta-note">想法还没成型也没关系。从「想实现这样的事情」开始咨询就好。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 05 FAQ ========== -->
+    <section class="sec sec--dark" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="faq-title">常见问题</h2>
+          <p class="sec-ja">常见问题解答</p>
+        </header>
+        <div class="faq" data-reveal>
+          <details class="faq-item">
+            <summary><span>真的没有初期费用吗？</span></summary>
+            <p>是的。设计・UI・开发的费用已包含在月费中，无需一次性预付。报价和咨询也完全免费。</p>
+          </details>
+          <details class="faq-item">
+            <summary>有最短合同期吗？</summary>
+            <p>最短合同期为 3 个月。</p>
+          </details>
+          <details class="faq-item">
+            <summary>解约后，做好的系统怎么办？</summary>
+            <p>解约时可以选择买断，我们将交付源代码。买断金额根据开发内容另行报价。若不买断，则解约后即停止使用。</p>
+          </details>
+          <details class="faq-item">
+            <summary>有月费不包含的项目吗？</summary>
+            <p>App Store・Google Play 等商店的注册费用，以及支付手续费等外部服务费用，需另行支付。服务器等费用的处理方式，会根据开发内容在报价时说明。</p>
+          </details>
+          <details class="faq-item">
+            <summary>开发过程中可以增改功能吗？</summary>
+            <p>可以。小型变更在月费范围内处理；较大的功能新增，会根据内容协商调整月费。</p>
+          </details>
+          <details class="faq-item">
+            <summary>能按案例的价格来做吗？</summary>
+            <p>案例费用是基于实际开发系统的参考价。即使内容相近，金额也会因具体需求而不同。正式报价将在需求沟通后提供。</p>
+          </details>
+          <details class="faq-item">
+            <summary>想法还没成型也能咨询吗？</summary>
+            <p>可以。从「想实现这样的事情」的阶段开始，我们就一起梳理必要的功能。只咨询、只要报价也完全可以。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 06 Our products ========== -->
+    <section class="sec sec--dark" aria-labelledby="own-title">
+      <div class="wrap dev-own">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="own-title">自研产品</h2>
+          <p class="sec-ja">我们的产品</p>
+        </header>
+        <div class="dev-own-body" data-reveal>
+          <p class="dev-own-lead">委托开发的根基，是我们自己企划、开发并运营的产品。<br />从设计到运营的经验，将直接运用在您的项目中。</p>
+          <div class="mini-apps">
+            <a href="https://anothercontact.com/" class="mini-app" target="_blank" rel="noopener">
+              <img src="../logos/another-contact-logo.png" alt="" />
+              <span><strong>Another Contact</strong><small>即将上线</small></span>
+              <i aria-hidden="true">↗</i>
+            </a>
+            <a href="../jibungo/" class="mini-app">
+              <img src="../logos/jibungo-logo.png" alt="" />
+              <span><strong>ジブンゴ</strong><small>即将上线</small></span>
+              <i aria-hidden="true">→</i>
+            </a>
+            <a href="../poissh/" class="mini-app">
+              <img src="../logos/poissh-logo.png" alt="" />
+              <span><strong>ポイッシュ</strong><small>已在 App Store 上线</small></span>
+              <i aria-hidden="true">→</i>
+            </a>
+            <a href="../ikocca/" class="mini-app">
+              <img src="../logos/ikocca-logo.png" alt="" />
+              <span><strong>いこっか。</strong><small>已在 App Store 上线</small></span>
+              <i aria-hidden="true">→</i>
+            </a>
+          </div>
+          <a href="../products/" class="link-arrow">查看全部产品<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section class="contact" aria-labelledby="contact-title">
+      <a href="../contact/?type=development" class="contact-link">
+        <div class="wrap contact-inner">
+          <p class="contact-label">报价・咨询（免费）</p>
+          <h2 class="contact-title" id="contact-title">联系我们<span class="contact-arrow" aria-hidden="true">→</span></h2>
+          <p class="contact-text">欢迎告诉我们您想做的东西、想实现的想法。初期费用免费・按月计费，免费为您报价。</p>
+        </div>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="gf">
+    <div class="wrap">
+      <div class="gf-top">
+        <div class="gf-brand">
+          <img src="../logos/3jinooyatsu_logo.png" alt="3時のおやつ" class="gf-logo" />
+          <p>产品开发工作室</p>
+        </div>
+        <div class="gf-cols">
+          <nav aria-label="页脚：公司">
+            <p class="gf-head">公司</p>
+            <a href="../about/">关于</a>
+            <a href="../development/">开发</a>
+            <a href="../news.html">新闻</a>
+            <a href="../recruit/">招聘</a>
+          </nav>
+          <nav aria-label="页脚：产品">
+            <p class="gf-head">产品</p>
+            <a href="../products/">全部产品</a>
+            <a href="https://anothercontact.com/" target="_blank" rel="noopener">Another Contact</a>
+            <a href="../jibungo/">ジブンゴ</a>
+            <a href="../poissh/">ポイッシュ</a>
+            <a href="../ikocca/">いこっか。</a>
+          </nav>
+          <nav aria-label="页脚：其他">
+            <p class="gf-head">支持</p>
+            <a href="../contact/">联系我们</a>
+            <a href="../privacy.html">隐私政策</a>
+          </nav>
+        </div>
+      </div>
+      <div class="gf-bottom">
+        <small>© 2026 3時のおやつ合同公司</small>
+        <span class="gf-time" data-clock-small>JST --:--</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>

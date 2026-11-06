@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>支持｜いこっか。</title>
+  <meta name="description" content="iOS 应用「いこっか。」的支持页面。提供咨询方式、常见问题与订阅管理方法。" />
+  <link rel="canonical" href="https://3jino-oyatsu.com/ikocca/support/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="3時のおやつ" />
+  <meta property="og:title" content="支持｜いこっか。" />
+  <meta property="og:description" content="iOS 应用「いこっか。」的支持页面。提供咨询方式、常见问题与订阅管理方法。" />
+  <meta property="og:url" content="https://3jino-oyatsu.com/ikocca/support/" />
+  <meta property="og:image" content="https://3jino-oyatsu.com/logos/3jinooyatsu_ogp.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/logos/ikocca-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200..700&amp;family=Noto+Sans+SC:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/site.css" />
+  <script src="/assets/theme.js"></script>
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="gh" data-gh>
+    <div class="gh-inner">
+      <a href="/" class="gh-logo" aria-label="3時のおやつ 首页">
+        <img src="/logos/3jinooyatsu_logo.png" alt="3時のおやつ" />
+      </a>
+      <nav class="gh-nav" id="gh-nav" aria-label="主导航">
+        <a href="/about/">关于</a>
+        <a href="/products/">产品</a>
+        <a href="/development/">开发</a>
+        <a href="/news.html">新闻</a>
+        <a href="/recruit/">招聘</a>
+        <a href="/contact/" class="gh-nav-cta-sp">联系</a>
+      </nav>
+      <a href="/contact/" class="btn btn--circle gh-cta">联系我们<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+      <button class="gh-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="gh-nav" data-gh-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head" aria-labelledby="page-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="crumb"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/ikocca/">いこっか。</a><span aria-hidden="true">/</span><span>支持</span></p>
+        <h1 class="page-title" id="page-title">支持</h1>
+        <p class="sec-ja">支持中心</p>
+        <a class="doc-app" href="/ikocca/"><img src="/logos/ikocca-logo.png" alt="" /><span>いこっか。</span></a>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap doc-layout">
+        <nav class="doc-toc" aria-label="目录" data-doc-toc>
+          <p class="doc-toc-label">目录</p>
+        </nav>
+        <article class="doc-main">
+          <p class="doc-lead">这里是 iOS 应用「いこっか。」的使用方法・故障・建议等咨询窗口与常见问题。遇到任何问题，欢迎随时联系我们。</p>
+          <div class="doc-body">
+        <h2 class="doc-h2-app"><img src="/logos/ikocca-logo.png" alt="いこっか。" width="40" height="40" />联系我们</h2>
+        <p>应用使用方法、故障报告、功能建议等，请通过下方表单发送。通常会在 2〜3 个工作日内回复到您填写的邮箱地址。</p>
+          </div>
+
+          <form class="cform cform--doc" id="support-form" data-contact-form data-form-type="app" data-subject="【いこっか。】" data-to="info@3jino-oyatsu.com" novalidate>
+            <input type="hidden" name="app" value="いこっか。" data-mail-label="应用" />
+            <fieldset class="cform-row" data-mail-label="咨询类型" data-subject-part>
+              <legend class="cform-label">咨询类型 <span class="req">必填</span></legend>
+              <div class="chips">
+                <label class="chip-radio"><input type="radio" name="kind" value="howto" data-label="关于使用方法" required /><span>关于使用方法</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="bug" data-label="故障报告" /><span>故障报告</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="billing" data-label="高级版・支付" /><span>高级版・支付</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="request" data-label="功能建议" /><span>功能建议</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="other" data-label="其他" /><span>其他</span></label>
+              </div>
+            </fieldset>
+
+            <div class="cform-row">
+              <label class="cform-label" for="sp-message">咨询内容 <span class="req">必填</span></label>
+              <textarea id="sp-message" name="message" rows="7" required data-mail-label="咨询内容" placeholder="在哪个界面、做了什么操作、出现了什么情况等"></textarea>
+            </div>
+
+            <div class="cform-grid" data-when="kind:howto,bug,billing">
+              <div class="cform-row">
+                <label class="cform-label" for="sp-device">设备型号 <span class="opt">选填</span></label>
+                <input id="sp-device" name="device" type="text" data-mail-label="设备型号" placeholder="例：iPhone 15" />
+              </div>
+              <div class="cform-row">
+                <label class="cform-label" for="sp-ios">iOS 版本 <span class="opt">选填</span></label>
+                <input id="sp-ios" name="ios" type="text" data-mail-label="iOS 版本" placeholder="例：iOS 26.1" />
+                <p class="cform-hint">可在 iPhone 的「设置」→「通用」→「关于本机」中查看。</p>
+              </div>
+            </div>
+
+            <div class="cform-grid">
+              <div class="cform-row">
+                <label class="cform-label" for="sp-email">邮箱地址 <span class="req">必填</span></label>
+                <input id="sp-email" name="email" type="email" required autocomplete="email" data-mail-label="邮箱地址" />
+              </div>
+              <div class="cform-row">
+                <label class="cform-label" for="sp-name">姓名 <span class="opt">选填</span></label>
+                <input id="sp-name" name="name" type="text" autocomplete="name" data-mail-label="姓名" placeholder="昵称也可以" />
+              </div>
+            </div>
+
+            <label class="agree">
+              <input type="checkbox" name="agree" required />
+              <span>同意<a href="/privacy.html" target="_blank" rel="noopener">隐私政策</a></span>
+            </label>
+
+            <div class="cform-actions">
+              <button type="submit" class="btn btn--primary btn--lg">以此内容发送<span class="btn-arrow" aria-hidden="true">→</span></button>
+              <p class="cform-hint" data-when="kind:bug">界面截图可在收到我们的回复邮件后以附件形式发送。</p>
+            </div>
+            <p class="cform-status" data-form-status role="status" aria-live="polite"></p>
+
+            <div class="cform-done" data-form-done tabindex="-1" hidden>
+              <span class="cform-done-mark" aria-hidden="true"><svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="26" pathLength="1" /><path d="M18 28.5l7 7 13-14" pathLength="1" /></svg></span>
+              <p class="cform-done-en">Thank you</p>
+              <h3 class="cform-done-title">已收到您的咨询。</h3>
+              <p class="cform-done-text">我们确认内容后，通常会在 <span class="nobr">2〜3 个工作日</span>内回复到您填写的邮箱地址。</p>
+              <p class="cform-done-note">如几日内仍未收到回复，请检查垃圾邮件文件夹，并告知 <a href="mailto:info@3jino-oyatsu.com">info@3jino-oyatsu.com</a>。</p>
+            </div>
+          </form>
+
+          <div class="doc-body">
+        <h2>常见问题</h2>
+
+        <h3>「いこっか。」是一款什么样的应用？</h3>
+        <p>这是一款出行记录应用：收藏想去的店铺和地点，与伴侣或朋友群组共享。可以用合集整理，也能留下到访清单和回忆照片。</p>
+
+        <h3>如何进行群组共享？</h3>
+        <p>在群组设置中生成邀请码（链接），发给对方即可加入。同一群组的成员可以一起编辑・浏览想去的地方和合集。</p>
+
+        <h3>请介绍一下高级版（付费方案）。</h3>
+        <p>高级版是月费 ¥300 / 年费 ¥3,000 的订阅。只要群组内有 1 人订阅，全组成员都可使用高级功能（解除地点・合集的添加上限、添加回忆照片等）。首次使用的用户可享受 3 个月免费试用（仅限符合条件的用户）。</p>
+
+        <h3>我想退订订阅。</h3>
+        <p>请通过 iPhone 的「设置」应用操作。</p>
+        <ol>
+          <li>打开「设置」应用</li>
+          <li>点击最上方的您的姓名（Apple 账户）</li>
+          <li>点击「订阅」</li>
+          <li>选择「いこっか。」，点击「取消订阅」</li>
+        </ol>
+        <p>退订后，在当前合同期结束前仍可使用高级功能。免费试用期内退订的步骤相同。</p>
+
+        <h3>换了新手机，已购买的高级版能继承吗？</h3>
+        <p>使用同一 Apple 账户登录后，点击应用内的「恢复购买」，即可恢复高级版权益。</p>
+
+        <h3>我想删除账户和数据。</h3>
+        <p>在应用内的设置中删除账户，登记的数据也会一并删除。如有疑问，请通过<a class="info-link" href="#support-form">咨询表单</a>联系我们。</p>
+
+        <h3>发现了故障 / 无法正常运行。</h3>
+        <p>麻烦通过<a class="info-link" href="#support-form">咨询表单</a>告知您的设备型号・iOS 版本・操作内容。我们确认后会尽快处理。</p>
+
+        <h2>相关链接</h2>
+        <ul>
+          <li><a class="info-link" href="/ikocca/">「いこっか。」产品介绍页</a></li>
+          <li><a class="info-link" href="/ikocca/privacy/">隐私政策</a></li>
+        </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="gf">
+    <div class="wrap">
+      <div class="gf-top">
+        <div class="gf-brand">
+          <img src="/logos/3jinooyatsu_logo.png" alt="3時のおやつ" class="gf-logo" />
+          <p>产品开发工作室</p>
+        </div>
+        <div class="gf-cols">
+          <nav aria-label="页脚：公司">
+            <p class="gf-head">公司</p>
+            <a href="/about/">关于</a>
+            <a href="/development/">开发</a>
+            <a href="/news.html">新闻</a>
+            <a href="/recruit/">招聘</a>
+          </nav>
+          <nav aria-label="页脚：产品">
+            <p class="gf-head">产品</p>
+            <a href="/products/">全部产品</a>
+            <a href="https://anothercontact.com/" target="_blank" rel="noopener">Another Contact</a>
+            <a href="/jibungo/">ジブンゴ</a>
+            <a href="/poissh/">ポイッシュ</a>
+            <a href="/ikocca/">いこっか。</a>
+          </nav>
+          <nav aria-label="页脚：其他">
+            <p class="gf-head">支持</p>
+            <a href="/contact/">联系我们</a>
+            <a href="/privacy.html">隐私政策</a>
+          </nav>
+        </div>
+      </div>
+      <div class="gf-bottom">
+        <small>© 2026 3時のおやつ合同公司</small>
+        <span class="gf-time" data-clock-small>JST --:--</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/site.js"></script>
+</body>
+</html>

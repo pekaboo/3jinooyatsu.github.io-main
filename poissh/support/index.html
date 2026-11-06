@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>支持｜ポイッシュ</title>
+  <meta name="description" content="iOS 应用「ポイッシュ」的支持页面。提供咨询窗口与常见问题。" />
+  <link rel="canonical" href="https://3jino-oyatsu.com/poissh/support/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="3時のおやつ" />
+  <meta property="og:title" content="支持｜ポイッシュ" />
+  <meta property="og:description" content="iOS 应用「ポイッシュ」的支持页面。提供咨询窗口与常见问题。" />
+  <meta property="og:url" content="https://3jino-oyatsu.com/poissh/support/" />
+  <meta property="og:image" content="https://3jino-oyatsu.com/logos/poissh_pic.png" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/logos/poissh-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200..700&amp;family=Noto+Sans+SC:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/site.css" />
+  <script src="/assets/theme.js"></script>
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="gh" data-gh>
+    <div class="gh-inner">
+      <a href="/" class="gh-logo" aria-label="3時のおやつ 首页">
+        <img src="/logos/3jinooyatsu_logo.png" alt="3時のおやつ" />
+      </a>
+      <nav class="gh-nav" id="gh-nav" aria-label="主导航">
+        <a href="/about/">关于</a>
+        <a href="/products/">产品</a>
+        <a href="/development/">开发</a>
+        <a href="/news.html">新闻</a>
+        <a href="/recruit/">招聘</a>
+        <a href="/contact/" class="gh-nav-cta-sp">联系</a>
+      </nav>
+      <a href="/contact/" class="btn btn--circle gh-cta">联系我们<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+      <button class="gh-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="gh-nav" data-gh-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head" aria-labelledby="page-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="wrap">
+        <p class="crumb"><a href="/">首页</a><span aria-hidden="true">/</span><a href="/poissh/">ポイッシュ</a><span aria-hidden="true">/</span><span>支持</span></p>
+        <h1 class="page-title" id="page-title">支持</h1>
+        <p class="sec-ja">支持中心</p>
+        <a class="doc-app" href="/poissh/"><img src="/logos/poissh-logo.png" alt="" /><span>ポイッシュ</span></a>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap doc-layout">
+        <nav class="doc-toc" aria-label="目录" data-doc-toc>
+          <p class="doc-toc-label">目录</p>
+        </nav>
+        <article class="doc-main">
+          <p class="doc-lead">这里是 iOS 应用「ポイッシュ」的使用方法・故障・建议等咨询窗口与常见问题。遇到任何问题，欢迎随时联系我们。</p>
+          <div class="doc-body">
+        <h2 class="doc-h2-app"><img src="/logos/poissh-logo.png" alt="ポイッシュ" width="40" height="40" />联系我们</h2>
+        <p>应用使用方法、故障报告、功能建议等，请通过下方表单发送。通常会在 2〜3 个工作日内回复到您填写的邮箱地址。</p>
+          </div>
+
+          <form class="cform cform--doc" id="support-form" data-contact-form data-form-type="app" data-subject="【ポイッシュ】" data-to="info@3jino-oyatsu.com" novalidate>
+            <input type="hidden" name="app" value="ポイッシュ" data-mail-label="应用" />
+            <fieldset class="cform-row" data-mail-label="咨询类型" data-subject-part>
+              <legend class="cform-label">咨询类型 <span class="req">必填</span></legend>
+              <div class="chips">
+                <label class="chip-radio"><input type="radio" name="kind" value="howto" data-label="关于使用方法" required /><span>关于使用方法</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="bug" data-label="故障报告" /><span>故障报告</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="request" data-label="功能建议" /><span>功能建议</span></label>
+                <label class="chip-radio"><input type="radio" name="kind" value="other" data-label="其他" /><span>其他</span></label>
+              </div>
+            </fieldset>
+
+            <div class="cform-row">
+              <label class="cform-label" for="sp-message">咨询内容 <span class="req">必填</span></label>
+              <textarea id="sp-message" name="message" rows="7" required data-mail-label="咨询内容" placeholder="在哪个界面、做了什么操作、出现了什么情况等"></textarea>
+            </div>
+
+            <div class="cform-grid" data-when="kind:howto,bug">
+              <div class="cform-row">
+                <label class="cform-label" for="sp-device">设备型号 <span class="opt">选填</span></label>
+                <input id="sp-device" name="device" type="text" data-mail-label="设备型号" placeholder="例：iPhone 15" />
+              </div>
+              <div class="cform-row">
+                <label class="cform-label" for="sp-ios">iOS 版本 <span class="opt">选填</span></label>
+                <input id="sp-ios" name="ios" type="text" data-mail-label="iOS 版本" placeholder="例：iOS 26.1" />
+                <p class="cform-hint">可在 iPhone 的「设置」→「通用」→「关于本机」中查看。</p>
+              </div>
+            </div>
+
+            <div class="cform-grid">
+              <div class="cform-row">
+                <label class="cform-label" for="sp-email">邮箱地址 <span class="req">必填</span></label>
+                <input id="sp-email" name="email" type="email" required autocomplete="email" data-mail-label="邮箱地址" />
+              </div>
+              <div class="cform-row">
+                <label class="cform-label" for="sp-name">姓名 <span class="opt">选填</span></label>
+                <input id="sp-name" name="name" type="text" autocomplete="name" data-mail-label="姓名" placeholder="昵称也可以" />
+              </div>
+            </div>
+
+            <label class="agree">
+              <input type="checkbox" name="agree" required />
+              <span>同意<a href="/privacy.html" target="_blank" rel="noopener">隐私政策</a></span>
+            </label>
+
+            <div class="cform-actions">
+              <button type="submit" class="btn btn--primary btn--lg">以此内容发送<span class="btn-arrow" aria-hidden="true">→</span></button>
+              <p class="cform-hint" data-when="kind:bug">界面截图可在收到我们的回复邮件后以附件形式发送。</p>
+            </div>
+            <p class="cform-status" data-form-status role="status" aria-live="polite"></p>
+
+            <div class="cform-done" data-form-done tabindex="-1" hidden>
+              <span class="cform-done-mark" aria-hidden="true"><svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="26" pathLength="1" /><path d="M18 28.5l7 7 13-14" pathLength="1" /></svg></span>
+              <p class="cform-done-en">Thank you</p>
+              <h3 class="cform-done-title">已收到您的咨询。</h3>
+              <p class="cform-done-text">我们确认内容后，通常会在 <span class="nobr">2〜3 个工作日</span>内回复到您填写的邮箱地址。</p>
+              <p class="cform-done-note">如几日内仍未收到回复，请检查垃圾邮件文件夹，并告知 <a href="mailto:info@3jino-oyatsu.com">info@3jino-oyatsu.com</a>。</p>
+            </div>
+          </form>
+
+          <div class="doc-body">
+        <h2>常见问题</h2>
+
+        <h3>「ポイッシュ」是一款什么样的应用？</h3>
+        <p>这是一款让你在收银台前不用翻找、直接出示积分卡和会员卡应用的应用。乐天积分・d 积分・Ponta・V 积分等通用积分固定排列在主页专属位置，门店应用则在你靠近该店时出现在主页最上方。</p>
+
+        <h3>附近门店没有显示出来。</h3>
+        <p>请确认位置信息授权是否为「始终允许」。在应用的<strong>管理 → 设置</strong>中，缺少权限时会显示「需要设置」，可从那里直接修改。若为「使用期间允许」，只有打开应用时才会工作。</p>
+        <p>此外，卡片详情页（在管理标签中点击卡片）会以「附近的◯◯」显示从地图查到的门店。如果此处为空，说明地图侧没有该门店的信息，或未能获取到位置信息。</p>
+
+        <h3>到店后没有收到通知。</h3>
+        <p>需要位置信息「始终允许」和通知授权<strong>两者兼备</strong>。只有其中一项时不会收到通知。另外，同一品牌的通知间隔为 3 小时。凌晨 0 点至 6 点默认不通知（可在设置中更改）。</p>
+
+        <h3>想用的应用不在列表里。</h3>
+        <p>请通过应用的<strong>管理 → 添加应用 → 请求添加未找到的应用</strong>，用 App Store 的名称搜索并提交。我们会将其加入列表。不需要任何专业知识。</p>
+
+        <h3>点击后却打开了 App Store。</h3>
+        <p>说明该应用未安装在设备上，或尚未找到直接启动的方法。如果已安装却打不开，请通过请求功能告诉我们。</p>
+
+        <h3>换了新手机，登记的内容消失了。</h3>
+        <p>登记的内容只保存在设备内，不会转移。麻烦在新设备上重新登记。这是「无需账号、信息不离开设备」这一设计的另一面。</p>
+
+        <h3>可以自己登记门店位置吗？</h3>
+        <p>无需登记。要去哪家门店由当时的当前位置决定，应用会根据品牌名自动在地图上查找周边门店。</p>
+
+        <h2>相关链接</h2>
+        <ul>
+          <li><a class="info-link" href="/poissh/">「ポイッシュ」产品介绍页</a></li>
+          <li><a class="info-link" href="/poissh/privacy/">隐私政策</a></li>
+        </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="gf">
+    <div class="wrap">
+      <div class="gf-top">
+        <div class="gf-brand">
+          <img src="/logos/3jinooyatsu_logo.png" alt="3時のおやつ" class="gf-logo" />
+          <p>产品开发工作室</p>
+        </div>
+        <div class="gf-cols">
+          <nav aria-label="页脚：公司">
+            <p class="gf-head">公司</p>
+            <a href="/about/">关于</a>
+            <a href="/development/">开发</a>
+            <a href="/news.html">新闻</a>
+            <a href="/recruit/">招聘</a>
+          </nav>
+          <nav aria-label="页脚：产品">
+            <p class="gf-head">产品</p>
+            <a href="/products/">全部产品</a>
+            <a href="https://anothercontact.com/" target="_blank" rel="noopener">Another Contact</a>
+            <a href="/jibungo/">ジブンゴ</a>
+            <a href="/poissh/">ポイッシュ</a>
+            <a href="/ikocca/">いこっか。</a>
+          </nav>
+          <nav aria-label="页脚：其他">
+            <p class="gf-head">支持</p>
+            <a href="/contact/">联系我们</a>
+            <a href="/privacy.html">隐私政策</a>
+          </nav>
+        </div>
+      </div>
+      <div class="gf-bottom">
+        <small>© 2026 3時のおやつ合同公司</small>
+        <span class="gf-time" data-clock-small>JST --:--</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/site.js"></script>
+</body>
+</html>

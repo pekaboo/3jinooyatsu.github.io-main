@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>.r{fill:none;stroke:#000000;stroke-width:5.5}.d{fill:#D1B57F}@media (prefers-color-scheme:dark){.r{stroke:#F4F1EC}}</style>
+  <g class="r"><path d="M85.77 39.32A40.0 40.0 0 0 0 60.68 14.23"/><path d="M35.07 14.23A40.0 40.0 0 1 0 85.77 64.93"/></g>
+  <g class="d"><circle cx="47.88" cy="12.12" r="7.0"/><circle cx="87.88" cy="52.12" r="7.0"/></g>
+</svg>

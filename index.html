@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3時のおやつ｜iOS・Android・Web・LINE 产品开发工作室</title>
+  <meta name="description" content="3時のおやつ是一家产品开发工作室，从企划到开发、运营，全程打造 iOS・Android 应用、Web 应用与 LINE 小应用。" />
+  <link rel="canonical" href="https://3jino-oyatsu.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="3時のおやつ" />
+  <meta property="og:title" content="3時のおやつ｜iOS・Android・Web・LINE 产品开发工作室" />
+  <meta property="og:description" content="3時のおやつ是一家产品开发工作室，从企划到开发、运营，全程打造 iOS・Android 应用、Web 应用与 LINE 小应用。" />
+  <meta property="og:url" content="https://3jino-oyatsu.com/" />
+  <meta property="og:image" content="https://3jino-oyatsu.com/logos/3jinooyatsu_ogp.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "3時のおやつ合同公司",
+    "alternateName": "3時のおやつ",
+    "url": "https://3jino-oyatsu.com/",
+    "logo": "https://3jino-oyatsu.com/logos/3jinooyatsu_logo.png",
+    "email": "info@3jino-oyatsu.com",
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "251-0035",
+      "addressRegion": "神奈川县",
+      "addressLocality": "藤泽市",
+      "streetAddress": "片濑海岸2丁目18-21 Leadsea片濑江之岛大厦 3F",
+      "addressCountry": "JP"
+    }
+  }
+  </script>
+  <link rel="icon" href="favicon.ico" sizes="32x32" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@200..700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+  <script src="assets/theme.js"></script>
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="gh" data-gh>
+    <div class="gh-inner">
+      <a href="./" class="gh-logo" aria-label="3時のおやつ 首页">
+        <img src="logos/3jinooyatsu_logo.png" alt="3時のおやつ" />
+      </a>
+      <nav class="gh-nav" id="gh-nav" aria-label="主导航">
+        <a href="about/">关于</a>
+        <a href="products/">产品</a>
+        <a href="development/">开发</a>
+        <a href="news.html">新闻</a>
+        <a href="recruit/">招聘</a>
+        <a href="contact/" class="gh-nav-cta-sp">联系</a>
+      </nav>
+      <a href="contact/" class="btn btn--circle gh-cta">联系我们<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+      <button class="gh-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="gh-nav" data-gh-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 00 Hero ========== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1 class="hero-title" id="hero-title" aria-label="把「要是有就好了」变成现实" data-split>
+            <span class="hero-line">把「要是有就好了」</span>
+            <span class="hero-line hero-line--sm">变成现实。</span>
+          </h1>
+          <p class="hero-lead">非必需，只是有了真好。</p>
+          <div class="hero-actions">
+            <a href="#products" class="btn btn--primary btn--circle">查看产品<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+            <a href="#development" class="btn btn--ghost btn--circle">开发咨询<span class="btn-arrow btn-arrow--circle" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span></a>
+          </div>
+        </div>
+
+        <div class="hero-dial hero-globe" data-globe>
+          <canvas class="globe-canvas" aria-hidden="true"></canvas>
+          <svg class="globe-ring" aria-hidden="true">
+            <path id="globe-arc-top" data-globe-arc="top" fill="none" />
+            <path id="globe-arc-bottom" data-globe-arc="bottom" fill="none" />
+            <text class="globe-ring-en"><textPath href="#globe-arc-top" startOffset="50%" text-anchor="middle">世界的某处，永远是下午三点</textPath></text>
+            <text class="globe-ring-ja"><textPath href="#globe-arc-bottom" startOffset="50%" text-anchor="middle">世界的某个角落，总是「3時のおやつ」时间。</textPath></text>
+          </svg>
+          <div class="globe-pin" data-globe-pin aria-hidden="true">
+            <span class="globe-pin-dot"></span>
+            <span class="globe-pin-leader"></span>
+            <span class="globe-pin-name"><b data-globe-name></b><span class="globe-pin-time" data-globe-time>15:00</span></span>
+            <span class="globe-pin-country"><span data-globe-country-en></span><span data-globe-country></span></span>
+          </div>
+          <p class="visually-hidden" data-globe-place>世界的某个角落，总是「3時のおやつ」时间。</p>
+        </div>
+      </div>
+
+      <div class="wrap hero-meta">
+        <dl class="hero-platforms">
+          <dt>平台</dt>
+          <dd><span>iOS</span><span>Android</span><span>Web</span><span>LINE</span></dd>
+        </dl>
+        <a href="#about" class="scroll-cue">向下滚动<span aria-hidden="true"></span></a>
+      </div>
+    </section>
+
+    <!-- ========== 01 About ========== -->
+    <section class="sec sec--drift" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <header class="sec-head" data-reveal>
+          <span class="sec-index" aria-hidden="true"></span>
+          <h2 class="sec-title" id="about-title">关于</h2>
+          <p class="sec-ja">关于我们</p>
+        </header>
+
+        <div class="about-body">
+          <p class="about-statement" data-reveal>
+            没有它，日子照过。<br />
+            但有了它，<br />
+            一天会多一点开心。
+          </p>
+          <div class="about-text" data-reveal>
+            <p>
+              我们自主企划、开发并交付像「3時のおやつ」这样存在的产品。
+            </p>
+            <p>
+              在自研产品中积累的设计与开发经验，同样充分运用在委托开发中。
+              不止于做出产品，更陪伴它持续被使用。小团队，用心做。
+            </p>
+            <a href="about/" class="link-arrow">了解更多<span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 02 Products ========== -->
+    <section class="sec sec--tint" id="products" aria-labelledby="products-title">
+      <div class="wrap">
+        <header class="sec-head sec-head--split" data-reveal>
+          <div>
+            <span class="sec-index" aria-hidden="true"></span>
+            <h2 class="sec-title" id="products-title">产品</h2>
+            <p class="sec-ja">自研产品</p>
+          </div>
+          <div class="sec-head-side">
+            <p class="sec-desc">
+              面对生活中的「小小麻烦」，用一个个「要是有就好了」来回应。<br />从企划、设计到开发、运营，全部由我们自己完成。
+            </p>
+            <a href="products/" class="link-arrow">查看全部<span aria-hidden="true">→</span></a>
+          </div>
+        </header>
+
+        <div class="pgrid">
+          <article class="pcard pcard--another" data-pcard>
+            <div class="pcard-body">
+              <span class="ppanel-status ppanel-status--soon">即将上线</span>
+              <div class="pcard-id">
+                <img class="pcard-icon" src="logos/another-contact-logo.png" alt="" />
+                <div>
+                  <h3 class="pcard-name pcard-name--en"><a class="pcard-link" href="https://anothercontact.com/" target="_blank" rel="noopener">Another Contact</a></h3>
+                  <p class="pcard-cat">隐私 · iOS</p>
+                </div>
+              </div>
+              <p class="pcard-catch">轻松使用的<br />第二个联系方式。</p>
+              <p class="pcard-desc">无论是注册、预约还是初次见面，不必交出真实联系方式，即可接收、回复、随时停止的应用。</p>
+              <span class="pcard-more" aria-hidden="true">访问网站<i>↗</i></span>
+            </div>
+            <div class="pcard-visual" aria-hidden="true">
+              <div class="pv-stage">
+                <img class="pv-phone pv-phone--framed pv-phone--back" src="another-contact/shots/thread.png" alt="" loading="lazy" style="--i: 1" />
+                <img class="pv-phone pv-phone--framed pv-phone--front" src="another-contact/shots/home.png" alt="" loading="lazy" style="--i: 0" />
+              </div>
+            </div>
+          </article>
+
+          <article class="pcard pcard--jibungo" data-pcard style="--d: 80ms">
+            <div class="pcard-body">
+              <span class="ppanel-status ppanel-status--soon">即将上线</span>
+              <div class="pcard-id">
+                <img class="pcard-icon" src="logos/jibungo-logo.png" alt="" />
+                <div>
+                  <h3 class="pcard-name"><a class="pcard-link" href="jibungo/">ジブンゴ</a></h3>
+                  <p class="pcard-cat">教育 · iOS</p>
+                </div>
+              </div>
+              <p class="pcard-catch">今天想说的话，<br />你能用英语说出来吗？</p>
+              <p class="pcard-desc">把脑海中闪过的一句话记下来，就能变成母语者常用的英语。还能反复练习，直到真正说出口。</p>
+              <span class="pcard-more" aria-hidden="true">了解详情<i>→</i></span>
+            </div>
+            <div class="pcard-visual" aria-hidden="true">
+              <div class="pv-stage">
+                <img class="pv-phone pv-phone--framed pv-phone--back" src="jibungo/shots/phone-usage.png" alt="" loading="lazy" style="--i: 1" />
+                <img class="pv-phone pv-phone--framed pv-phone--front" src="jibungo/shots/phone-memo.png" alt="" loading="lazy" style="--i: 0" />
+              </div>
+            </div>
+          </article>
+
+          <article class="pcard pcard--poissh" data-pcard>
+            <div class="pcard-body">
+              <span class="ppanel-status ppanel-status--live">已在 App Store 上线</span>
+              <div class="pcard-id">
+                <img class="pcard-icon" src="logos/poissh-logo.png" alt="" />
+                <div>
+                  <h3 class="pcard-name"><a class="pcard-link" href="poissh/">ポイッシュ</a></h3>
+                  <p class="pcard-cat">钱包 · iOS</p>
+                </div>
+              </div>
+              <p class="pcard-catch">不用翻找，一滑即出。</p>
+              <p class="pcard-desc">靠近门店时，要用的积分应用自动置顶。省去在收银台前翻找的时间。</p>
+              <span class="pcard-more" aria-hidden="true">了解详情<i>→</i></span>
+            </div>
+            <div class="pcard-visual" aria-hidden="true">
+              <div class="pv-stage">
+                <div class="pv-phone pv-phone--back" style="--i: 1"><img src="poissh/shots/02.jpg" alt="" loading="lazy" /></div>
+                <div class="pv-phone pv-phone--front" style="--i: 0"><img src="poissh/shots/01.jpg" alt="" loading="lazy" /></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="pcard pcard--ikocca" data-pcard style="--d: 80ms">
+            <div class="pcard-body">
+              <span class="ppanel-status ppanel-status--live">已在 App Store 上线</span>
+              <div class="pcard-id">
+                <img class="pcard-icon" src="logos/ikocca-logo.png" alt="" />
+                <div>
+                  <h3 class="pcard-name"><a class="pcard-link" href="ikocca/">いこっか。</a></h3>
+                  <p class="pcard-cat">旅行 · iOS</p>
+                </div>
+              </div>
+              <p class="pcard-catch">收集、汇总，然后出发。</p>
+              <p class="pcard-desc">把社交网站上发现的「想去这里」，和同伴或群组一起攒起来，决定下一次出行。</p>
+              <span class="pcard-more" aria-hidden="true">了解详情<i>→</i></span>
+            </div>
+            <div class="pcard-visual" aria-hidden="true">
+              <div class="pv-stage">
+                <img class="pv-phone pv-phone--framed pv-phone--back" src="ikocca/shots/phone-map.png" alt="" loading="lazy" style="--i: 1" />
+                <img class="pv-phone pv-phone--framed pv-phone--front" src="ikocca/shots/phone-home.png" alt="" loading="lazy" style="--i: 0" />
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="psoon" data-reveal>
+          <div class="psoon-card">
+            <span class="psoon-code" aria-hidden="true">build --product=next<b>_</b></span>
+            <span class="psoon-label">即将推出</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 03 Development ========== -->
+    <section class="sec sec--dark" id="development" aria-labelledby="dev-title">
+      <div class="wrap">
+        <header class="sec-head sec-head--split" data-reveal>
+          <div>
+            <span class="sec-index" aria-hidden="true"></span>
+            <h2 class="sec-title" id="dev-title">开发</h2>
+            <p class="sec-ja">委托开发</p>
+          </div>
+          <div class="sec-head-side">
+            <p class="sec-desc">
+              把自研产品中打磨出的设计与开发经验，用于你的事业。<br />从梳理企划到上线后的持续改进，全程相伴。
+            </p>
+            <a href="development/" class="link-arrow">查看全部<span aria-hidden="true">→</span></a>
+          </div>
+        </header>
+
+        <div class="caps">
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">移动应用</h3>
+            <p class="cap-ja">iOS・Android 应用开发</p>
+            <p class="cap-desc">iPhone・Android 原生应用开发。灵活运用小组件、共享菜单、通知等系统能力，设计出色的使用体验。</p>
+            <ul class="tags tags--dark"><li>Swift</li><li>SwiftUI</li><li>Kotlin</li><li>Jetpack Compose</li></ul>
+          </article>
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">Web 应用与系统</h3>
+            <p class="cap-ja">Web 应用・系统开发</p>
+            <p class="cap-desc">从业务系统、SaaS 到管理后台。先做小，再在运营中逐步成长，是我们的开发方式。</p>
+            <ul class="tags tags--dark"><li>TypeScript</li><li>React</li><li>Supabase</li></ul>
+          </article>
+          <article class="cap" data-reveal>
+            <h3 class="cap-title">LINE 小应用</h3>
+            <p class="cap-ja">LINE 小应用开发</p>
+            <p class="cap-desc">预约、点单、会员卡等全部在 LINE 内完成。从添加好友到实际使用，路径尽可能短。</p>
+            <ul class="tags tags--dark"><li>LIFF</li><li>Messaging API</li></ul>
+          </article>
+        </div>
+
+        <div class="dev-offer" data-reveal>
+          <p class="dev-offer-msg">无论事业规模大小，<br />都能轻松起步。</p>
+          <dl class="dev-offer-price">
+            <div><dt>初期费用</dt><dd>免费</dd></div>
+            <div><dt>月费</dt><dd><span class="nobr">2,980<small>日元起</small></span></dd></div>
+          </dl>
+        </div>
+        <div class="dev-cta" data-reveal>
+          <a href="contact/?type=development" class="btn btn--light">开发咨询<span class="btn-arrow" aria-hidden="true">→</span></a>
+          <a href="development/#cases" class="link-arrow">案例与费用参考<span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 04 News ========== -->
+    <section class="sec" id="news" aria-labelledby="news-title">
+      <div class="wrap">
+        <header class="sec-head sec-head--split" data-reveal>
+          <div>
+            <span class="sec-index" aria-hidden="true"></span>
+            <h2 class="sec-title" id="news-title">新闻</h2>
+            <p class="sec-ja">最新消息</p>
+          </div>
+          <a href="news.html" class="link-arrow">查看全部<span aria-hidden="true">→</span></a>
+        </header>
+
+        <ul class="news-rows" data-reveal>
+          <li>
+            <a href="news.html">
+              <time class="news-date" datetime="2026-06-26"><small>2026</small>06.26</time>
+              <span class="news-rows-body"><span class="news-cat">产品</span><span class="news-rows-title">「いこっか。」应用已上线</span></span>
+              <span class="news-rows-arrow" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span>
+            </a>
+          </li>
+          <li>
+            <a href="news.html">
+              <time class="news-date" datetime="2026-05-20"><small>2026</small>05.20</time>
+              <span class="news-rows-body"><span class="news-cat">公告</span><span class="news-rows-title">关于黄金周期间的咨询响应</span></span>
+              <span class="news-rows-arrow" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span>
+            </a>
+          </li>
+          <li>
+            <a href="news.html">
+              <time class="news-date" datetime="2026-05-10"><small>2026</small>05.10</time>
+              <span class="news-rows-body"><span class="news-cat">专栏</span><span class="news-rows-title">委托开发中我们最重视的三件事</span></span>
+              <span class="news-rows-arrow" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 9h12M10 4l5 5-5 5" /></svg></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== 05 Recruit ========== -->
+    <section class="sec sec--dark join" id="recruit" aria-labelledby="recruit-title">
+      <figure class="join-photo" aria-hidden="true"><img src="recruit/photos/message-window.jpg" alt="" loading="lazy" /></figure>
+      <div class="wrap">
+        <div class="recruit" data-reveal>
+          <div class="recruit-head">
+            <span class="sec-index">招聘信息</span>
+            <h2 class="join-title" id="recruit-title">加入我们<span>.</span></h2>
+          </div>
+          <div class="recruit-body">
+            <a href="recruit/" class="hire-badge" aria-label="查看招聘信息（Now hiring）">
+              <svg viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="hire-badge-ring" d="M60 60m-44 0a44 44 0 1 1 88 0a44 44 0 1 1-88 0" /></defs>
+                <g class="hire-badge-text"><text><textPath href="#hire-badge-ring" textLength="276" lengthAdjust="spacing">NOW HIRING · JOIN US · NOW HIRING · JOIN US · </textPath></text></g>
+              </svg>
+            </a>
+            <p class="recruit-lead">
+              无论自研产品还是委托开发。<br />
+              我们在寻找能一起享受创造的伙伴。
+            </p>
+            <div class="recruit-actions">
+              <a href="recruit/" class="btn btn--primary">查看招聘信息<span class="btn-arrow" aria-hidden="true">→</span></a>
+              <a href="contact/?type=recruit&amp;kind=casual" class="btn btn--outline-light">轻松面谈<span class="btn-arrow" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>iOS 工程师</span><span>Web 工程师</span><span>产品设计师</span><span>销售</span><span>市场营销</span>
+          <span>iOS 工程师</span><span>Web 工程师</span><span>产品设计师</span><span>销售</span><span>市场营销</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 06 Contact ========== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <a href="contact/" class="contact-link">
+        <div class="wrap contact-inner">
+          <p class="contact-label">06 / 联系我们</p>
+          <h2 class="contact-title" id="contact-title">联系我们<span class="contact-arrow" aria-hidden="true">→</span></h2>
+          <p class="contact-text">无论是产品咨询、开发委托还是媒体采访，都欢迎随时联系我们。</p>
+        </div>
+      </a>
+    </section>
+
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="gf">
+    <div class="wrap">
+      <div class="gf-top">
+        <div class="gf-brand">
+          <img src="logos/3jinooyatsu_logo.png" alt="3時のおやつ" class="gf-logo" />
+          <p>产品开发工作室</p>
+        </div>
+        <div class="gf-cols">
+          <nav aria-label="页脚：公司">
+            <p class="gf-head">公司</p>
+            <a href="about/">关于</a>
+            <a href="development/">开发</a>
+            <a href="news.html">新闻</a>
+            <a href="recruit/">招聘</a>
+          </nav>
+          <nav aria-label="页脚：产品">
+            <p class="gf-head">产品</p>
+            <a href="products/">全部产品</a>
+            <a href="https://anothercontact.com/" target="_blank" rel="noopener">Another Contact</a>
+            <a href="jibungo/">ジブンゴ</a>
+            <a href="poissh/">ポイッシュ</a>
+            <a href="ikocca/">いこっか。</a>
+          </nav>
+          <nav aria-label="页脚：其他">
+            <p class="gf-head">支持</p>
+            <a href="contact/">联系我们</a>
+            <a href="privacy.html">隐私政策</a>
+          </nav>
+        </div>
+      </div>
+      <div class="gf-bottom">
+        <small>© 2026 3時のおやつ合同公司</small>
+        <span class="gf-time" data-clock-small>JST --:--</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/globe-land.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
